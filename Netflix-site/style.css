@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root {
+   --cor01: #e50914;
+   --cor02: #ffffff;
+   
+}
+*{
+   padding: 0px;
+   margin: 0px;
+}
+nav{
+   padding-bottom: 30px;
+
+}
+#butonsnav{
+   text-align: end;
+   padding: 10px;
+}
+#pt{
+   position: relative;
+   left: 406px;
+   margin-top: -28px;
+   padding: 0px;
+   text-align: center;
+}
+#entrar{
+   position: relative;
+   left: 89%;
+   font-weight: 400;
+   width: 43px;
+   padding: 7px 17px;
+   background-color: var(--cor01);
+   color: var(--cor02);
+   border-radius: 5px;
+   font-size: 1rem;
+   
+}
