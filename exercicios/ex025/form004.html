@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 003</title>
+</head>
+<body>
+    <h1>Formuários</h1>
+    <p>Form </p>
+    <form action="cadrasto.php">
+        <fieldset>
+            <legend>informações pessoais</legend>
+            <p>
+                <label for="nome">nome: </label>
+                <input type="text" name="" id="nome">
+            </p>
+            <p>
+                <label for="email">email:</label>
+                <input type="email" name="" id="email">
+            </p>
+            <p>
+                <label for="tel">telefone: </label>
+                <input type="tel" name="" id="tel" pattern="^\5[0-9]{4}-[0-9]{4}$" placeholder="mínimo de 8 dígitos">
+            </p>
+            <!-- Estudar mais sobre RegEx-->
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>
