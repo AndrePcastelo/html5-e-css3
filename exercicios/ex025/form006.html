@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários, cores</title>
+</head>
+<body>
+    <h1>Formulários com cores</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="cor">cor:</label>
+            <input type="color" name="cor" id="cor">
+        </p>
+        <p>
+            <label for="range">Fedback</label>
+            <input type="range" name="range" id="range" min="1" max="5" value="50%">
+        </p>
+        <p>
+            <label for="photo">foto de perfil: </label>
+            <input type="file" name="photo" id="photo">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+        <p>
+            <label for="nome">teste</label>
+            <input type="time" name="nome" id="nome">
+        </p>
+        <p>
+            <fieldset>
+                <legend>testes</legend>
+                <label for="">buscar:</label>
+                <input type="search" name="" id="">
+                <label for="">url:</label>
+                <input type="url" name="" id="">
+            </fieldset>
+        </p>
+
+    </form>
+</body>
+</html>

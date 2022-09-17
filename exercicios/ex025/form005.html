@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form005</title>
+</head>
+<body>
+    <h1>ex005 de formulários</h1>
+    <p>sim, estou feliz por já estar aprendendo bastante sobre formulários</p>
+
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <fieldset>
+            <legend> Sexos</legend>
+             <input type="radio" name="sexo" id="" checked value="M"><label for="sexo">Masculino</label> <br>
+             <input type="radio" name="sexo" id="" value="F"><label for="sexo">Feminino</label>
+        </fieldset>
+        <fieldset>
+             <legend> Esportes favoritos</legend>
+             <input type="checkbox" name="" id="caixa" checked><label for="caixa">Futebol</label><br>
+             <input type="checkbox" name="" id="caixa1"><label for="caixa1">Muay Thai</label><br>
+             <input type="checkbox" name="" id="caixa2"><label for="caixa2">Boxe</label><br>
+             <input type="checkbox" name="" id="caixa3"><label for="caixa3">Basquete</label><br>
+        </fieldset>
+        <p><input type="submit" value="enviar">
+           <input type="reset" value="apagar">
+        </p>
+
+    </form>
+</body>
+</html>
