@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outputs, e ultima aula</title>
+</head>
+<body>
+    <h3>Essa daqui é a ultima aula sobre forms</h3>
+
+    <form action="">
+
+        <p>
+            <label for="">num 1:</label> <input type="number" name="" id="in1" min="0" max="100" required
+            oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="">num 2:</label> <input type="number" name="" id="in2" min="0" max="100" required
+            oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="soma">soma</label>
+            <output id="isoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
